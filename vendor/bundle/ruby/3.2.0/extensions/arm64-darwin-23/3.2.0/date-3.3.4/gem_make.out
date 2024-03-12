@@ -1,0 +1,25 @@
+current directory: /Users/lee/tmp/web3/tmp/web3/vendor/bundle/ruby/3.2.0/gems/date-3.3.4/ext/date
+/Users/lee/.rvm/rubies/ruby-3.2.1/bin/ruby -I /Users/lee/.rvm/rubies/ruby-3.2.1/lib/ruby/3.2.0 extconf.rb
+checking for rb_category_warn()... yes
+checking for timezone in time.h with  -Werror... yes
+checking for altzone in time.h with  -Werror... no
+creating Makefile
+
+current directory: /Users/lee/tmp/web3/tmp/web3/vendor/bundle/ruby/3.2.0/gems/date-3.3.4/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20240312-93341-6xdvp sitelibdir\=./.gem.20240312-93341-6xdvp clean
+
+current directory: /Users/lee/tmp/web3/tmp/web3/vendor/bundle/ruby/3.2.0/gems/date-3.3.4/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20240312-93341-6xdvp sitelibdir\=./.gem.20240312-93341-6xdvp
+compiling date_core.c
+compiling date_parse.c
+compiling date_strftime.c
+compiling date_strptime.c
+linking shared-object date_core.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.2'
+
+current directory: /Users/lee/tmp/web3/tmp/web3/vendor/bundle/ruby/3.2.0/gems/date-3.3.4/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20240312-93341-6xdvp sitelibdir\=./.gem.20240312-93341-6xdvp install
+/opt/homebrew/opt/coreutils/bin/ginstall -c -m 0755 date_core.bundle ./.gem.20240312-93341-6xdvp
+
+current directory: /Users/lee/tmp/web3/tmp/web3/vendor/bundle/ruby/3.2.0/gems/date-3.3.4/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20240312-93341-6xdvp sitelibdir\=./.gem.20240312-93341-6xdvp clean
